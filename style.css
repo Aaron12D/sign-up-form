@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    background-color: #b28876;
+    color: #21262c;
+    text-align: center;
+}
+.left{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner{
+    position: absolute;
+
+    background-color: #21262c;
+    font-size: 45px;
+    opacity: .5;
+    width: 50%;
+    height: 25vh;
+}
+

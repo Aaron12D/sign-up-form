@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fontlibrary.org//face/youngserif" type="fontlibrary"/>
 </head>
 <body>
     <div class="left">
@@ -12,9 +13,39 @@
         <img src="seashore.jpg" alt="beautiful coastal city on a cloudy day">
     </div>
     <div class="right">
-        <h1>Sign up for the ultimate travel newsletter!</h1>
-        <div>Too bad this isn't a real newsletter</div>
+        <div class="top">
+            <h1>Sign up for the ultimate travel newsletter.</h1>
+            <div class='sub'>Too bad this isn't a real newsletter.</div>
+        </div>
+        <div class="middle">
+            <form action="">
+                <h1>Let's do this!</h1>
+                <div class="form-split">
+                    <div class="form">
+                        <label for="first-name">*FIRST NAME</label>
+                        <input type="text" name="first" id="first-name" autocomplete="name" required>
+                        <label for="email">*EMAIL</label>
+                        <input type="email" name="email" id="email" autocomplete="name" required>
+                        <label for="password">*PASSWORD</label>
+                        <input type="text" name="password" id="password" required>
+                        <div id="match">*password do not match</div>
+                    </div>
+                    <div class="form">
+                        <label for="last-name">*LAST NAME</label>
+                        <input type="text" name="last" id="last-name" required>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="tele" id="phone-number">
+                        <label for="confirm-pw">*CONFIRM PASSWORD</label>
+                        <input type="text" name="cpassword" id="confirm-pw" required>
+                    </div>
+                </div>
+                <button type="submit">Sign Me Up</button>
+            </form>
+        </div>
+        <div class="bottom">
+            <div class="sub">Already signed up? <a href="">Log In</a></div>
+        </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
